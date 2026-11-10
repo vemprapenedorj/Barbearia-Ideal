@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrossel Barbearia Ideal — 5 Motivos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: #07090b;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      padding: 40px 20px;
+    }
+    .slide-wrapper {
+      width: 1080px;
+      height: 1350px;
+      background-color: #0c0f12;
+      color: #f8fafc;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 90px 80px;
+      border: 1px solid rgba(212, 163, 89, 0.2);
+      box-shadow: 0 25px 60px rgba(0,0,0,0.8);
+      flex-shrink: 0;
+    }
+
+    /* Top Bar */
+    .slide-top {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      z-index: 2;
+    }
+    .brand-tag {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-family: 'Cinzel', serif;
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: #d4a359;
+    }
+
+    /* Middle Content */
+    .slide-content {
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .eyebrow {
+      font-size: 18px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      color: #d4a359;
+    }
+    .gold-divider {
+      width: 80px;
+      height: 4px;
+      background: #d4a359;
+      border-radius: 2px;
+    }
+    .slide-title {
+      font-family: 'Cinzel', serif;
+      font-size: 64px;
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -0.5px;
+      color: #ffffff;
+    }
+    .slide-text {
+      font-size: 32px;
+      line-height: 1.6;
+      color: #cbd5e1;
+      max-width: 900px;
+    }
+    .big-number {
+      font-family: 'Cinzel', serif;
+      font-size: 130px;
+      font-weight: 900;
+      line-height: 1;
+      color: rgba(212, 163, 89, 0.18);
+      margin-bottom: -30px;
+    }
+
+    /* Footer */
+    .slide-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 30px;
+      font-size: 20px;
+      color: #94a3b8;
+      font-weight: 600;
+      z-index: 2;
+    }
+    .footer-action {
+      color: #d4a359;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Capa Slide 1 */
+    .slide-cover {
+      background: radial-gradient(circle at 80% 20%, rgba(212, 163, 89, 0.15) 0%, transparent 60%), #0c0f12;
+    }
+    .slide-cover .slide-title {
+      font-size: 74px;
+      line-height: 1.12;
+    }
+    .cover-highlight {
+      color: #d4a359;
+      background: linear-gradient(135deg, #ebd09c, #d4a359);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .cover-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(212, 163, 89, 0.12);
+      border: 1px solid #d4a359;
+      color: #ebd09c;
+      padding: 12px 24px;
+      border-radius: 999px;
+      font-size: 20px;
+      font-weight: 700;
+      width: fit-content;
+    }
+
+    /* Final Slide */
+    .cta-card {
+      background: #14181d;
+      border: 2px solid #d4a359;
+      border-radius: 20px;
+      padding: 48px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      box-shadow: 0 15px 35px rgba(212, 163, 89, 0.15);
+    }
+    .cta-card h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 40px;
+      color: #d4a359;
+    }
+    .cta-card p {
+      font-size: 26px;
+      color: #cbd5e1;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SLIDE 1 (CAPA) -->
+  <div class="slide-wrapper slide-cover">
+    <div class="slide-top">
+      <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+    </div>
+    <div class="slide-content">
+      <div class="cover-badge"><i class="fa-solid fa-medal"></i> DESDE 2014</div>
+      <div class="eyebrow">EXPERIÊNCIA & TRADIÇÃO</div>
+      <div class="gold-divider"></div>
+      <h1 class="slide-title">
+        5 MOTIVOS PELOS QUAIS A BARBEARIA IDEAL É <span class="cover-highlight">MAIS QUE UM CORTE</span>
+      </h1>
+      <p class="slide-text">
+        Cuidar da aparência não precisa ser corrido. Conheça a experiência pensada para você relaxar de verdade.
+      </p>
+    </div>
+    <div class="slide-footer">
+      <span>@barbeariaideal2014</span>
+      <div class="footer-action">Arraste para o lado <i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 2 (MOTIVO 01) -->
+  <div class="slide-wrapper">
+    <div class="slide-top">
+      <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+    </div>
+    <div class="slide-content">
+      <div class="big-number">01</div>
+      <div class="eyebrow">CONFORTO NO AMBIENTE</div>
+      <div class="gold-divider"></div>
+      <h2 class="slide-title">AMBIENTE 100% CLIMATIZADO</h2>
+      <p class="slide-text">
+        Esqueça o calor da rua. Nosso espaço foi projetado com climatização agradável o ano todo para você sentar na poltrona e respirar fundo com todo o conforto.
+      </p>
+    </div>
+    <div class="slide-footer">
+      <span>@barbeariaideal2014</span>
+      <div class="footer-action"><i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 3 (MOTIVO 02) -->
+  <div class="slide-wrapper">
+    <div class="slide-top">
+      <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+    </div>
+    <div class="slide-content">
+      <div class="big-number">02</div>
+      <div class="eyebrow">CANTINHO ESPECIAL</div>
+      <div class="gold-divider"></div>
+      <h2 class="slide-title">CANTINHO DO CAFÉ & BEBIDAS</h2>
+      <p class="slide-text">
+        Sua visita é uma pausa de qualidade na rotina. Aproveite nosso cantinho com café expresso e bebidas geladas disponíveis no local enquanto aguarda o seu atendimento.
+      </p>
+    </div>
+    <div class="slide-footer">
+      <span>@barbeariaideal2014</span>
+      <div class="footer-action"><i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 4 (MOTIVO 03) -->
+  <div class="slide-wrapper">
+    <div class="slide-top">
+      <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+    </div>
+    <div class="slide-content">
+      <div class="big-number">03</div>
+      <div class="eyebrow">PRATICIDADE TOTAL</div>
+      <div class="gold-divider"></div>
+      <h2 class="slide-title">ATENDIMENTO POR ORDEM DE CHEGADA</h2>
+      <p class="slide-text">
+        Sem complicação de aplicativo ou taxa de cancelamento. Deu uma folga no seu dia? Basta chegar, tomar seu café e ser atendido com agilidade e respeito ao seu tempo.
+      </p>
+    </div>
+    <div class="slide-footer">
+      <span>@barbeariaideal2014</span>
+      <div class="footer-action"><i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 5 (MOTIVO 04) -->
+  <div class="slide-wrapper">
+    <div class="slide-top">
+      <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+    </div>
+    <div class="slide-content">
+      <div class="big-number">04</div>
+      <div class="eyebrow">TRADIÇÃO COMPROVADA</div>
+      <div class="gold-divider"></div>
+      <h2 class="slide-title">MAIS DE 10 ANOS DE HISTÓRIA</h2>
+      <p class="slide-text">
+        Desde 2014 servindo a nossa região com seriedade e respeito. Uma década aperfeiçoando o atendimento masculino e construindo amizades em cada cadeira.
+      </p>
+    </div>
+    <div class="slide-footer">
+      <span>@barbeariaideal2014</span>
+      <div class="footer-action"><i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 6 (MOTIVO 05) -->
+  <div class="slide-wrapper">
+    <div class="slide-top">
+      <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+    </div>
+    <div class="slide-content">
+      <div class="big-number">05</div>
+      <div class="eyebrow">ESTILO & PRECISÃO</div>
+      <div class="gold-divider"></div>
+      <h2 class="slide-title">CORTES MODERNOS & NAVALHA</h2>
+      <p class="slide-text">
+        Do degradê fade mais atual à precisão da navalha na barba e pezinho. Nossa equipe experiente e uniformizada entrega o padrão impecável que você procura.
+      </p>
+    </div>
+    <div class="slide-footer">
+      <span>@barbeariaideal2014</span>
+      <div class="footer-action"><i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 7 (CTA FINAL) -->
+  <div class="slide-wrapper">
+    <div class="slide-top">
+      <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+    </div>
+    <div class="slide-content">
+      <div class="eyebrow">VENHA NOS CONHECER</div>
+      <div class="gold-divider"></div>
+      <h2 class="slide-title">SEU ESTILO MERECE ESSE CUIDADO</h2>
+      <div class="cta-card">
+        <h3>TERÇA A SÁBADO</h3>
+        <p><strong>09:00 às 19:00</strong></p>
+        <p>Esperamos por você com ambiente climatizado e café pronto!</p>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span>@barbeariaideal2014</span>
+      <div class="footer-action"><i class="fa-solid fa-bookmark"></i> Salve para visitar</div>
+    </div>
+  </div>
+
+</body>
+</html>
