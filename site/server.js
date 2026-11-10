@@ -19,6 +19,20 @@ const server = http.createServer((req, res) => {
   let reqPath = decodeURI(req.url.split('?')[0]);
   if (reqPath === '/') reqPath = '/index.html';
 
+  if (reqPath === '/carrossel' || reqPath === '/slides' || reqPath === '/carrossel-1') {
+    const slidesPath = path.join(__dirname, '..', 'instagram', 'carrossel-1', 'slides.html');
+    fs.readFile(slidesPath, (err, data) => {
+      if (err) {
+        res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+        res.end('Carrossel não encontrado');
+        return;
+      }
+      res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+      res.end(data);
+    });
+    return;
+  }
+
   const filePath = path.join(__dirname, reqPath);
   const ext = path.extname(filePath).toLowerCase();
 

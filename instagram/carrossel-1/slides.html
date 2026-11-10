@@ -15,9 +15,10 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 40px;
-      padding: 40px 20px;
+      gap: 50px;
+      padding: 50px 20px;
     }
+
     .slide-wrapper {
       width: 1080px;
       height: 1350px;
@@ -28,19 +29,47 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      padding: 90px 80px;
-      border: 1px solid rgba(212, 163, 89, 0.2);
-      box-shadow: 0 25px 60px rgba(0,0,0,0.8);
+      padding: 95px 85px;
+      border: 1px solid rgba(212, 163, 89, 0.25);
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.85);
       flex-shrink: 0;
+    }
+
+    /* Plano de Fundo Esmaecido com Foto Real */
+    .slide-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .slide-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.15;
+      filter: grayscale(60%) brightness(0.65) contrast(1.15);
+      transform: scale(1.03);
+    }
+
+    .slide-bg-overlay {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 50%, rgba(12, 15, 18, 0.72) 0%, rgba(12, 15, 18, 0.94) 85%);
     }
 
     /* Top Bar */
     .slide-top {
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       align-items: center;
       z-index: 2;
+      position: relative;
     }
+
     .brand-tag {
       display: flex;
       align-items: center;
@@ -52,13 +81,22 @@
       color: #d4a359;
     }
 
-    /* Middle Content */
+    .slide-handle {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.45);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    /* Middle Content (Prioridade Total para o Texto) */
     .slide-content {
       z-index: 2;
+      position: relative;
       display: flex;
       flex-direction: column;
       gap: 24px;
     }
+
     .eyebrow {
       font-size: 18px;
       font-weight: 800;
@@ -66,12 +104,14 @@
       letter-spacing: 5px;
       color: #d4a359;
     }
+
     .gold-divider {
       width: 80px;
       height: 4px;
       background: #d4a359;
       border-radius: 2px;
     }
+
     .slide-title {
       font-family: 'Cinzel', serif;
       font-size: 64px;
@@ -79,20 +119,25 @@
       line-height: 1.15;
       letter-spacing: -0.5px;
       color: #ffffff;
+      text-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
     }
+
     .slide-text {
       font-size: 32px;
       line-height: 1.6;
       color: #cbd5e1;
       max-width: 900px;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
     }
+
     .big-number {
       font-family: 'Cinzel', serif;
-      font-size: 130px;
+      font-size: 140px;
       font-weight: 900;
       line-height: 1;
-      color: rgba(212, 163, 89, 0.18);
-      margin-bottom: -30px;
+      color: rgba(212, 163, 89, 0.22);
+      margin-bottom: -32px;
+      letter-spacing: -2px;
     }
 
     /* Footer */
@@ -100,34 +145,36 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
       padding-top: 30px;
       font-size: 20px;
       color: #94a3b8;
       font-weight: 600;
       z-index: 2;
+      position: relative;
     }
+
     .footer-action {
       color: #d4a359;
       display: flex;
       align-items: center;
       gap: 10px;
+      font-weight: 700;
     }
 
     /* Capa Slide 1 */
-    .slide-cover {
-      background: radial-gradient(circle at 80% 20%, rgba(212, 163, 89, 0.15) 0%, transparent 60%), #0c0f12;
-    }
     .slide-cover .slide-title {
-      font-size: 74px;
+      font-size: 72px;
       line-height: 1.12;
     }
+
     .cover-highlight {
       color: #d4a359;
       background: linear-gradient(135deg, #ebd09c, #d4a359);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+
     .cover-badge {
       display: inline-flex;
       align-items: center;
@@ -144,7 +191,8 @@
 
     /* Final Slide */
     .cta-card {
-      background: #14181d;
+      background: rgba(20, 24, 29, 0.85);
+      backdrop-filter: blur(8px);
       border: 2px solid #d4a359;
       border-radius: 20px;
       padding: 48px;
@@ -154,11 +202,13 @@
       gap: 20px;
       box-shadow: 0 15px 35px rgba(212, 163, 89, 0.15);
     }
+
     .cta-card h3 {
       font-family: 'Cinzel', serif;
       font-size: 40px;
       color: #d4a359;
     }
+
     .cta-card p {
       font-size: 26px;
       color: #cbd5e1;
@@ -169,8 +219,13 @@
 
   <!-- SLIDE 1 (CAPA) -->
   <div class="slide-wrapper slide-cover">
+    <div class="slide-bg">
+      <img src="../../site/assets/images/hero-real.jpg" alt="Barbearia Ideal">
+      <div class="slide-bg-overlay"></div>
+    </div>
     <div class="slide-top">
       <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+      <span class="slide-handle">@barbeariaideal2014</span>
     </div>
     <div class="slide-content">
       <div class="cover-badge"><i class="fa-solid fa-medal"></i> DESDE 2014</div>
@@ -184,15 +239,20 @@
       </p>
     </div>
     <div class="slide-footer">
-      <span>@barbeariaideal2014</span>
+      <span>Sul Fluminense</span>
       <div class="footer-action">Arraste para o lado <i class="fa-solid fa-arrow-right"></i></div>
     </div>
   </div>
 
-  <!-- SLIDE 2 (MOTIVO 01) -->
+  <!-- SLIDE 2 (MOTIVO 01 - CONFORTO NO AMBIENTE) -->
   <div class="slide-wrapper">
+    <div class="slide-bg">
+      <img src="../../site/assets/images/ambiente-real-2.jpg" alt="Ambiente Climatizado">
+      <div class="slide-bg-overlay"></div>
+    </div>
     <div class="slide-top">
       <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+      <span class="slide-handle">@barbeariaideal2014</span>
     </div>
     <div class="slide-content">
       <div class="big-number">01</div>
@@ -204,15 +264,20 @@
       </p>
     </div>
     <div class="slide-footer">
-      <span>@barbeariaideal2014</span>
+      <span>Barbearia Ideal</span>
       <div class="footer-action"><i class="fa-solid fa-arrow-right"></i></div>
     </div>
   </div>
 
-  <!-- SLIDE 3 (MOTIVO 02) -->
+  <!-- SLIDE 3 (MOTIVO 02 - CAFÉ & BEBIDAS) -->
   <div class="slide-wrapper">
+    <div class="slide-bg">
+      <img src="../../site/assets/images/ambiente-real-1.jpg" alt="Café e Bebidas">
+      <div class="slide-bg-overlay"></div>
+    </div>
     <div class="slide-top">
       <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+      <span class="slide-handle">@barbeariaideal2014</span>
     </div>
     <div class="slide-content">
       <div class="big-number">02</div>
@@ -224,15 +289,20 @@
       </p>
     </div>
     <div class="slide-footer">
-      <span>@barbeariaideal2014</span>
+      <span>Barbearia Ideal</span>
       <div class="footer-action"><i class="fa-solid fa-arrow-right"></i></div>
     </div>
   </div>
 
-  <!-- SLIDE 4 (MOTIVO 03) -->
+  <!-- SLIDE 4 (MOTIVO 03 - ORDEM DE CHEGADA) -->
   <div class="slide-wrapper">
+    <div class="slide-bg">
+      <img src="../../site/assets/images/equipe-1.jpg" alt="Atendimento por Ordem de Chegada">
+      <div class="slide-bg-overlay"></div>
+    </div>
     <div class="slide-top">
       <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+      <span class="slide-handle">@barbeariaideal2014</span>
     </div>
     <div class="slide-content">
       <div class="big-number">03</div>
@@ -244,15 +314,20 @@
       </p>
     </div>
     <div class="slide-footer">
-      <span>@barbeariaideal2014</span>
+      <span>Barbearia Ideal</span>
       <div class="footer-action"><i class="fa-solid fa-arrow-right"></i></div>
     </div>
   </div>
 
-  <!-- SLIDE 5 (MOTIVO 04) -->
+  <!-- SLIDE 5 (MOTIVO 04 - 10 ANOS DE HISTÓRIA) -->
   <div class="slide-wrapper">
+    <div class="slide-bg">
+      <img src="../../site/assets/images/equipe-2.jpg" alt="10 Anos de História">
+      <div class="slide-bg-overlay"></div>
+    </div>
     <div class="slide-top">
       <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+      <span class="slide-handle">@barbeariaideal2014</span>
     </div>
     <div class="slide-content">
       <div class="big-number">04</div>
@@ -264,15 +339,20 @@
       </p>
     </div>
     <div class="slide-footer">
-      <span>@barbeariaideal2014</span>
+      <span>Barbearia Ideal</span>
       <div class="footer-action"><i class="fa-solid fa-arrow-right"></i></div>
     </div>
   </div>
 
-  <!-- SLIDE 6 (MOTIVO 05) -->
+  <!-- SLIDE 6 (MOTIVO 05 - CORTES & NAVALHA) -->
   <div class="slide-wrapper">
+    <div class="slide-bg">
+      <img src="../../site/assets/images/corte-1.jpg" alt="Cortes Modernos e Navalha">
+      <div class="slide-bg-overlay"></div>
+    </div>
     <div class="slide-top">
       <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+      <span class="slide-handle">@barbeariaideal2014</span>
     </div>
     <div class="slide-content">
       <div class="big-number">05</div>
@@ -284,15 +364,20 @@
       </p>
     </div>
     <div class="slide-footer">
-      <span>@barbeariaideal2014</span>
+      <span>Barbearia Ideal</span>
       <div class="footer-action"><i class="fa-solid fa-arrow-right"></i></div>
     </div>
   </div>
 
   <!-- SLIDE 7 (CTA FINAL) -->
   <div class="slide-wrapper">
+    <div class="slide-bg">
+      <img src="../../site/assets/images/hero-real.jpg" alt="Venha nos Conhecer">
+      <div class="slide-bg-overlay"></div>
+    </div>
     <div class="slide-top">
       <div class="brand-tag"><i class="fa-solid fa-scissors"></i> BARBEARIA IDEAL</div>
+      <span class="slide-handle">@barbeariaideal2014</span>
     </div>
     <div class="slide-content">
       <div class="eyebrow">VENHA NOS CONHECER</div>
