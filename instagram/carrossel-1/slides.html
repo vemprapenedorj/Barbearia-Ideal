@@ -35,7 +35,7 @@
       flex-shrink: 0;
     }
 
-    /* Plano de Fundo Esmaecido com Foto Real */
+    /* Plano de Fundo com Foto Real Visível e Equilibrada */
     .slide-bg {
       position: absolute;
       inset: 0;
@@ -50,15 +50,16 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      opacity: 0.15;
-      filter: grayscale(60%) brightness(0.65) contrast(1.15);
-      transform: scale(1.03);
+      opacity: 0.35;
+      filter: grayscale(20%) brightness(0.72) contrast(1.15);
+      transform: scale(1.02);
     }
 
     .slide-bg-overlay {
       position: absolute;
       inset: 0;
-      background: radial-gradient(circle at 50% 50%, rgba(12, 15, 18, 0.72) 0%, rgba(12, 15, 18, 0.94) 85%);
+      background: radial-gradient(circle at 50% 50%, rgba(12, 15, 18, 0.58) 0%, rgba(12, 15, 18, 0.86) 90%),
+                  linear-gradient(180deg, rgba(12, 15, 18, 0.45) 0%, rgba(12, 15, 18, 0.72) 100%);
     }
 
     /* Top Bar */
@@ -119,15 +120,15 @@
       line-height: 1.15;
       letter-spacing: -0.5px;
       color: #ffffff;
-      text-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.95), 0 2px 6px rgba(0, 0, 0, 0.9);
     }
 
     .slide-text {
       font-size: 32px;
       line-height: 1.6;
-      color: #cbd5e1;
+      color: #f1f5f9;
       max-width: 900px;
-      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+      text-shadow: 0 3px 14px rgba(0, 0, 0, 0.95), 0 1px 4px rgba(0, 0, 0, 0.85);
     }
 
     .big-number {
