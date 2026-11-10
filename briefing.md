@@ -10,7 +10,7 @@
 - **Serviços Principais:** Corte de cabelo masculino (fade/degradê/tesoura), barba tradicional na navalha, combo corte + barba, acabamento e pezinho
 - **Diferenciais:**
   - Ambiente 100% climatizado
-- Diferenciais do espaço: Ambiente 100% climatizado, cantinho com café e bebidas geladas disponíveis para consumo no local (com custo à parte), e atendimento por ordem de chegada.
+  - Cantinho com café e bebidas geladas para consumo no local (com custo à parte)
   - Tradição (desde 2014) com equipe experiente e uniformizada
 
 ## 2. Entregas Realizadas
