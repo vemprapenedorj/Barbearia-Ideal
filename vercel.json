@@ -1,13 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
-  "trailingSlash": false,
   "rewrites": [
-    { "source": "/", "destination": "/site/index.html" },
-    { "source": "/proposta", "destination": "/propostas/proposta.html" },
-    { "source": "/propostas/:path*", "destination": "/propostas/:path*" },
-    { "source": "/instagram/:path*", "destination": "/instagram/:path*" },
-    { "source": "/site/:path*", "destination": "/site/:path*" },
-    { "source": "/:path*", "destination": "/site/:path*" }
+    { "source": "/proposta", "destination": "/propostas/proposta.html" }
   ]
 }
