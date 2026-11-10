@@ -20,3 +20,4 @@ Projeto de posicionamento online, landing page de alta conversão, proposta come
 
 ---
 © 2026 Barbearia Ideal — Tradição, Estilo e Conforto.
+
