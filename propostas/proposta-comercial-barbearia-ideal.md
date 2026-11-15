@@ -1,103 +1,116 @@
-# Proposta Comercial — Presença Digital Barbearia Ideal
+# Proposta Comercial — Presença Digital & Posicionamento Local
+## Barbearia Ideal (Tradição desde 2014)
 
 **Cliente:** Barbearia Ideal (@barbeariaideal2014)  
-**Data:** 10 de Novembro de 2026  
-**Status:** Pronta para apresentação  
+**Responsável:** Rafael Chagas  
 **WhatsApp do Cliente:** (24) 99834-4486  
-**Opções de Endereço:** `barbeariaideal.vercel.app` (100% Gratuito) ou `barbeariaideal.com.br` (Domínio Próprio)
+**Horário de Atendimento:** Terça a sábado, das 09:00 às 19:00 (Ordem de chegada)  
+**Data:** 15 de Novembro de 2026  
+**Status:** Pronta para apresentação  
 
 ---
 
-## 1. Diagnóstico e Oportunidade
+## 1. Diagnóstico e Oportunidade Estratégica
 
-A **Barbearia Ideal** possui mais de 10 anos de solidez (desde 2014), ambiente 100% climatizado, cortes modernos e uma equipe experiente uniformizada. No entanto, hoje a barbearia depende exclusivamente de quem já a conhece ou passa pela porta, sem uma vitrine profissional na web e no Google.
+A **Barbearia Ideal** possui mais de 10 anos de tradição e solidez (desde 2014), equipe experiente e uniformizada, ambiente 100% climatizado, cantinho com café e bebidas geladas e cortes de alta qualidade no degradê e barba na navalha.
 
-### Oportunidade identificada:
-- **Presença Digital Imediata com Custo Zero de Servidor:** Publicação do site oficial da barbearia com hospedagem gratuita vitalícia na Vercel (`barbeariaideal.vercel.app`), ou registro do domínio próprio exclusivo `barbeariaideal.com.br` com plano de R$ 65/ano.
-- **Atendimento por Ordem de Chegada:** A landing page já esclarece a dinâmica do atendimento, exibe as fotos reais do espaço e coloca o cliente no WhatsApp com 1 toque.
-- **Brinde Especial Incluso:** Ambos os planos já acompanham o **1º carrossel profissional de brinde** (com as 5 imagens/motivos criadas para o Instagram da Barbearia Ideal).
+Ao analisar a presença digital atual da barbearia, identificamos **duas grandes oportunidades de atração de novos clientes todos os dias:**
 
----
+1. **Ausência de um Site Oficial no Google e na Bio:**  
+   Quem pesquisa no Google por *"barbearia perto de mim"*, *"melhor corte masculino"* ou procura pelo Instagram não encontra uma vitrine profissional imediata com fotos reais do espaço, cardápio de serviços e esclarecimento sobre o atendimento.
+2. **Dúvidas Frequentes sobre Agendamento:**  
+   Como a Barbearia Ideal trabalha no modelo ágil de **ordem de chegada** (sem agendamento prévio), um site claro e direto economiza tempo da equipe ao esclarecer horários, localização com rota no mapa e dinâmica do atendimento.
 
-## 2. Escopo da Landing Page de Alta Conversão
-
-Desenvolvimento completo da página oficial da Barbearia Ideal, projetada para carregar em menos de 2 segundos no celular e transformar visitantes em clientes no balcão.
-
-### Itens inclusos em todas as opções:
-1. **Design Exclusivo e Moderno:** Paleta sofisticada (grafite, acabamentos em ouro e detalhes do WhatsApp oficial e Instagram).
-2. **Mobile-First:** 100% otimizada para smartphones (onde mais de 90% das buscas por barbearias acontecem).
-3. **Fotos Reais do Espaço e Equipe:** Integração fotográfica do ambiente climatizado, café e cortes realizados na barbearia.
-4. **Cardápio Visual de Serviços em 2 Colunas:** Apresentação clara de Corte Degradê/Fade, Barba Tradicional na navalha, Combo e Acabamento.
-5. **Comunicação por Ordem de Chegada:** Destaque claro para o modelo de atendimento sem agendamento prévio.
-6. **Integração com WhatsApp:** Botões de chamada rápida para tirar dúvidas e solicitar localização exata no Waze/Google Maps.
-7. **Otimização para Busca Local (SEO):** Preparação técnica para o Google reconhecer a Barbearia Ideal nas buscas do Sul Fluminense.
+### A Solução:
+Publicar a **Landing Page Oficial de Alta Conversão**, moderna, ultra-rápida no celular, com botões diretos de WhatsApp para tirar dúvidas e traçar rotas no Waze/Google Maps, além de um carrossel profissional de brinde para o Instagram da barbearia.
 
 ---
 
-## 3. Planos e Opções de Investimento (2 Opções)
+## 2. O que está incluso no Projeto
 
-Estruturamos 2 opções comerciais práticas e diretas para a Barbearia Ideal:
-
----
-
-### 🔹 PLANO 1: Landing Page Econômica (Hospedagem 100% Gratuita)
-*Ideal para colocar o site no ar imediatamente com zero custo de servidor.*
-- **Endereço do Site:** `www.barbeariaideal.vercel.app` (ou link direto na bio do Instagram)
-- **Hospedagem em servidor 100% grátis.**
-- **Custo Mensal ou Anual de Servidor:** **R$ 0,00**
-- **Zero mensalidades recorrentes**
-- **Brinde Incluso:** **1º Carrossel de brinde** *(com as 5 imagens criadas para o Instagram)*
-- **Investimento de Criação / Setup:** **R$ 499,00**
-  - 🟢 **Opção Pix (10% de desconto):** **R$ 449,10** à vista
-  - 💳 **Opção Cartão de Crédito:** até **3x de R$ 166,33 sem juros**
+### 🌐 A. Landing Page Oficial Mobile-First (Já Pré-desenvolvida)
+- **Design Barbershop Dark Premium:** Paleta sofisticada em tons grafite/preto, acabamentos em dourado clássico, tipografia marcante e integração da logo oficial da Barbearia Ideal.
+- **Fotos Reais do Espaço e Equipe:** Integração fotográfica do ambiente climatizado, cadeiras profissionais, equipe uniformizada e cortes executados no local.
+- **Cardápio Visual de Serviços em 2 Colunas:** Apresentação clara dos serviços (Degradê/Fade, Barba Tradicional na navalha, Combo Corte + Barba, Acabamento e Corte Personalizado).
+- **Comunicação por Ordem de Chegada:** Destaque estratégico para a dinâmica sem necessidade de agendamento, valorizando a praticidade do cliente.
+- **Botões Inteligentes no WhatsApp:** Contato com 1 toque para tirar dúvidas de localização no Google Maps/Waze e valores.
+- **Ultra-rápido:** Carregamento em menos de 2 segundos no 4G/5G, garantindo que o cliente não desista antes da página abrir.
+- **Segurança e Confiabilidade:** Certificado de Segurança SSL (HTTPS) com cadeado verde ativo.
 
 ---
 
-### 🔹 PLANO 2: Landing Page Oficial (Domínio Próprio .com.br)
-*Para quem busca máxima autoridade com o endereço exclusivo da barbearia.*
-- **Endereço do Site:** `www.barbeariaideal.com.br`
-- **1º Ano de Domínio e Hospedagem:** **100% GRATUITO** (Incluso no projeto)
-- **Anos 2 e 3:** Apenas **R$ 65,00 por ano** *(zero mensalidades caras)*
-- **Zero mensalidades recorrentes**
-- **Brinde Incluso:** **1º Carrossel de brinde** *(com as 5 imagens criadas para o Instagram)*
-- **Investimento de Criação / Setup:** **R$ 599,00** *(com 1º ano de domínio e hospedagem grátis + R$ 65/ano nos anos 2 e 3)*
-  - 🟢 **Opção Pix (10% de desconto):** **R$ 539,10** à vista
-  - 💳 **Opção Cartão de Crédito:** até **3x de R$ 199,66 sem juros**
+## 3. Planos e Opções de Investimento
+
+Estruturamos 2 opções práticas, transparentes e sob medida para a Barbearia Ideal:
 
 ---
 
-## 4. Formas de Pagamento Facilitadas
-
-- **Pix à Vista:** **10% de desconto** imediato em qualquer um dos planos (Plano 1: R$ 449,10 | Plano 2: R$ 539,10).
-- **Cartão de Crédito:** Parcelamento em até **3x sem juros** (Plano 1: 3x de R$ 166,33 | Plano 2: 3x de R$ 199,66).
+### 🔹 OPÇÃO 1: Presença Essencial (Site Oficial com Hospedagem Gratuita)
+*Ideal para colocar o site no ar imediatamente com custo zero recorrente de servidor.*
+- **Endereço do Site:** `www.barbeariaideal.vercel.app` (link direto otimizado para bio do Instagram e WhatsApp).
+- **Hospedagem de alta velocidade:** Servidor moderno em nuvem com **custo mensal de servidor R$ 0,00**.
+- **Zero mensalidades fixas de servidor.**
+- **🎁 Brinde Especial Incluso:** 1º Carrossel profissional completo com 5 artes prontas para o Instagram (@barbeariaideal2014).
+- **Investimento Único de Criação / Setup:** **R$ 599,00**
+  - 🟢 **Pix à Vista (10% de desconto):** **R$ 539,10**
+  - 💳 **Cartão de Crédito:** até **3x de R$ 199,66 sem juros**
 
 ---
 
-## 5. Roteiro de Abordagem / Mensagem Pronta para o WhatsApp
+### 🔹 OPÇÃO 2: Autoridade Oficial (Site com Domínio Próprio .com.br) — *RECOMENDADO*
+*Para posicionar a Barbearia Ideal com autoridade máxima e o endereço web exclusivo da marca.*
+- **Tudo da Opção 1, mais:**
+- **Domínio Próprio Exclusivo:** `www.barbeariaideal.com.br` (com o **1º ano de registro e configuração DNS 100% gratuito e incluso**).
+- **🎁 Brinde Especial Incluso:** 1º Carrossel profissional completo com 5 artes prontas para o Instagram (@barbeariaideal2014).
+- **Taxa de Manutenção & Suporte Mensal:** **R$ 69,90/mês** (para futuras alterações de imagens, cortes, textos, horários, preços e suporte contínuo via WhatsApp).
+- **Investimento Único de Criação / Setup:** **R$ 799,00**
+  - 🟢 **Pix à Vista (10% de desconto):** **R$ 719,10**
+  - 💳 **Cartão de Crédito:** até **3x de R$ 266,33 sem juros**
+
+---
+
+## 4. Resumo Comparativo dos Planos
+
+| Benefício / Entregável | Opção 1: Presença Essencial | Opção 2: Autoridade Oficial (Recomendado) |
+| :--- | :---: | :---: |
+| **Landing Page Exclusiva Mobile-First** | ✅ Incluso | ✅ Incluso |
+| **Fotos Reais do Espaço, Cortes e Equipe** | ✅ Incluso | ✅ Incluso |
+| **Cardápio Visual dos Serviços** | ✅ Incluso | ✅ Incluso |
+| **Comunicação por Ordem de Chegada** | ✅ Incluso | ✅ Incluso |
+| **Botões de WhatsApp e Rotas no Waze/Maps** | ✅ Incluso | ✅ Incluso |
+| **Endereço Web do Site** | `barbeariaideal.vercel.app` | `www.barbeariaideal.com.br` |
+| **Registro de Domínio Próprio** | — | **1º Ano 100% Gratuito** |
+| **Taxa de Manutenção & Alterações** | Sob demanda | **R$ 69,90/mês** (fotos, textos e suporte) |
+| **1º Carrossel Completo para o Instagram (5 artes)** | 🎁 Brinde | 🎁 Brinde |
+| **Custo de Servidor** | R$ 0,00 | R$ 0,00 |
+| **Investimento no Pix (10% OFF)** | **R$ 539,10** | **R$ 719,10** |
+| **Parcelamento no Cartão sem Juros** | **3x de R$ 199,66** | **3x de R$ 266,33** |
+
+---
+
+## 5. Roteiro Pronto de Abordagem para o WhatsApp
 
 ```text
 Olá, pessoal da Barbearia Ideal! Tudo bem?
 
-Acompanho o trabalho e a história de vocês desde 2014 aí na região. Sei o quanto o atendimento de vocês é diferenciado, com o espaço 100% climatizado, o cantinho do café e a qualidade dos cortes.
+Acompanho o trabalho e a história de vocês desde 2014. Sei o quanto o espaço de vocês é diferenciado, com o ambiente 100% climatizado, o cantinho do café e bebidas e a qualidade impecável dos cortes.
 
-Tomei a liberdade de preparar uma prévia de como ficaria o site oficial de vocês, já usando as fotos reais da equipe e dos cortes.
+Tomei a liberdade de preparar uma prévia de como ficaria o site oficial de vocês, já usando as fotos reais da equipe, do espaço e dos cortes:
 
-Dêem uma olhada nessa demonstração rápida:
 👉 [Link de demonstração do site]
 
-Para colocar no ar, temos duas opções muito práticas:
-1. Com hospedagem 100% gratuita para sempre no link da Vercel (barbeariaideal.vercel.app), com zero mensalidades recorrentes e custo zero de servidor (R$ 499, com 10% no Pix por R$ 449,10 ou 3x de R$ 166,33 sem juros).
-2. Ou com o domínio próprio oficial barbeariaideal.com.br, com o 1º ano grátis e os próximos 2 anos por apenas R$ 65 por ano (R$ 599, com 10% no Pix por R$ 539,10 ou 3x de R$ 199,66 sem juros).
+Para colocar no ar essa semana, temos duas opções práticas:
 
-Em qualquer uma das opções, vocês já ganham de brinde o primeiro carrossel profissional completo com 5 imagens pronto para postar no Instagram de vocês!
+1. Presença Essencial (R$ 599 — R$ 539,10 no Pix ou 3x de R$ 199,66 sem juros):
+Com hospedagem gratuita para sempre (barbeariaideal.vercel.app), zero custos de servidor e já inclui de brinde o 1º carrossel profissional de 5 artes para o Instagram de vocês.
 
-O que acharam da demonstração?
+2. Autoridade Oficial (R$ 799 — R$ 719,10 no Pix ou 3x de R$ 266,33 sem juros):
+Com o domínio próprio oficial www.barbeariaideal.com.br (com o 1º ano 100% gratuito e configurado), brinde do carrossel do Instagram e taxa de manutenção de apenas R$ 69,90/mês para manter fotos, cortes e textos sempre atualizados.
+
+O que acharam da demonstração do site?
 ```
 
 ---
 
-## 6. Próximos Passos
-1. Escolha da opção desejada pelo proprietário (Plano 1 Hospedagem Gratuita ou Plano 2 Domínio Próprio).
-2. Definição da forma de pagamento (Pix 10% OFF ou Cartão até 3x sem juros).
-3. Publicação oficial do site.
-4. Envio das artes do carrossel para publicação no Instagram [@barbeariaideal2014](https://www.instagram.com/barbeariaideal2014/).
+## 6. Prazo de Entrega
+- **Colocação no ar:** 48 horas úteis após a aprovação da proposta.
