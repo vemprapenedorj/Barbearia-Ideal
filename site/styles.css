@@ -427,6 +427,8 @@ ul {
 .nav-social-icons {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
   gap: 10px;
 }
 
