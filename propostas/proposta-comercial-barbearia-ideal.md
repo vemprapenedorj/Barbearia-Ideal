@@ -5,7 +5,7 @@
 **Responsável:** Rafael Chagas  
 **WhatsApp do Cliente:** (24) 99834-4486  
 **Horário de Atendimento:** Terça a sábado, das 09:00 às 19:00 (Ordem de chegada)  
-**Data:** 21 de Novembro de 2026  
+**Data:** Novembro de 2026  
 **Status:** Pronta para apresentação  
 
 ---
