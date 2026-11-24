@@ -5,7 +5,7 @@
 **Responsável:** Rafael Chagas  
 **WhatsApp do Cliente:** (24) 99834-4486  
 **Horário de Atendimento:** Terça a sábado, das 09:00 às 19:00 (Ordem de chegada)  
-**Data:** 15 de Novembro de 2026  
+**Data:** 21 de Novembro de 2026  
 **Status:** Pronta para apresentação  
 
 ---
@@ -47,9 +47,10 @@ Estruturamos 2 opções práticas, transparentes e sob medida para a Barbearia I
 
 ### 🔹 OPÇÃO 1: Presença Essencial (Site Oficial com Hospedagem Gratuita)
 *Ideal para colocar o site no ar imediatamente com custo zero recorrente de servidor.*
-- **Endereço do Site:** `www.barbeariaideal.vercel.app` (link direto otimizado para bio do Instagram e WhatsApp).
+- **Endereço do Site:** [barbearia-ideal.vercel.app](https://barbearia-ideal.vercel.app/) (link direto otimizado para bio do Instagram e WhatsApp).
 - **Hospedagem de alta velocidade:** Servidor moderno em nuvem com **custo mensal de servidor R$ 0,00**.
 - **Zero mensalidades fixas de servidor.**
+- **Manutenção Mensal Opcional:** **R$ 59,90/mês** *(ou sem mensalidade fixa, pagando alterações avulsas à parte)*.
 - **🎁 Brinde Especial Incluso:** 1º Carrossel profissional completo com 5 artes prontas para o Instagram (@barbeariaideal2014).
 - **Investimento Único de Criação / Setup:** **R$ 599,00**
   - 🟢 **Pix à Vista (10% de desconto):** **R$ 539,10**
@@ -62,10 +63,10 @@ Estruturamos 2 opções práticas, transparentes e sob medida para a Barbearia I
 - **Tudo da Opção 1, mais:**
 - **Domínio Próprio Exclusivo:** `www.barbeariaideal.com.br` (com o **1º ano de registro e configuração DNS 100% gratuito e incluso**).
 - **🎁 Brinde Especial Incluso:** 1º Carrossel profissional completo com 5 artes prontas para o Instagram (@barbeariaideal2014).
-- **Taxa de Manutenção & Suporte Mensal:** **R$ 69,90/mês** (para futuras alterações de imagens, cortes, textos, horários, preços e suporte contínuo via WhatsApp).
-- **Investimento Único de Criação / Setup:** **R$ 799,00**
-  - 🟢 **Pix à Vista (10% de desconto):** **R$ 719,10**
-  - 💳 **Cartão de Crédito:** até **3x de R$ 266,33 sem juros**
+- **Taxa de Gestão & Manutenção Contínua:** **R$ 99,90/mês** (para futuras alterações de imagens, cortes, equipe, textos, horários, preços e suporte contínuo via WhatsApp).
+- **Investimento Único de Criação / Setup:** **R$ 899,00**
+  - 🟢 **Pix à Vista (10% de desconto):** **R$ 809,10**
+  - 💳 **Cartão de Crédito:** até **3x de R$ 299,66 sem juros** (ou até 12x via link)
 
 ---
 
@@ -78,13 +79,13 @@ Estruturamos 2 opções práticas, transparentes e sob medida para a Barbearia I
 | **Cardápio Visual dos Serviços** | ✅ Incluso | ✅ Incluso |
 | **Comunicação por Ordem de Chegada** | ✅ Incluso | ✅ Incluso |
 | **Botões de WhatsApp e Rotas no Waze/Maps** | ✅ Incluso | ✅ Incluso |
-| **Endereço Web do Site** | `barbeariaideal.vercel.app` | `www.barbeariaideal.com.br` |
+| **Endereço Web do Site** | `barbearia-ideal.vercel.app` | `www.barbeariaideal.com.br` |
 | **Registro de Domínio Próprio** | — | **1º Ano 100% Gratuito** |
-| **Taxa de Manutenção & Alterações** | Sob demanda | **R$ 69,90/mês** (fotos, textos e suporte) |
+| **Taxa de Manutenção & Suporte** | **R$ 59,90/mês** (opcional ou avulsa) | **R$ 99,90/mês** (incluso com domínio) |
 | **1º Carrossel Completo para o Instagram (5 artes)** | 🎁 Brinde | 🎁 Brinde |
 | **Custo de Servidor** | R$ 0,00 | R$ 0,00 |
-| **Investimento no Pix (10% OFF)** | **R$ 539,10** | **R$ 719,10** |
-| **Parcelamento no Cartão sem Juros** | **3x de R$ 199,66** | **3x de R$ 266,33** |
+| **Investimento no Pix (10% OFF)** | **R$ 539,10** | **R$ 809,10** |
+| **Parcelamento no Cartão sem Juros** | **3x de R$ 199,66** | **3x de R$ 299,66** |
 
 ---
 
@@ -97,15 +98,15 @@ Acompanho o trabalho e a história de vocês desde 2014. Sei o quanto o espaço 
 
 Tomei a liberdade de preparar uma prévia de como ficaria o site oficial de vocês, já usando as fotos reais da equipe, do espaço e dos cortes:
 
-👉 [Link de demonstração do site]
+👉 https://barbearia-ideal.vercel.app/
 
 Para colocar no ar essa semana, temos duas opções práticas:
 
 1. Presença Essencial (R$ 599 — R$ 539,10 no Pix ou 3x de R$ 199,66 sem juros):
-Com hospedagem gratuita para sempre (barbeariaideal.vercel.app), zero custos de servidor e já inclui de brinde o 1º carrossel profissional de 5 artes para o Instagram de vocês.
+Com hospedagem gratuita para sempre (barbearia-ideal.vercel.app), zero custos de servidor, manutenção opcional de R$ 59,90/mês e já inclui de brinde o 1º carrossel profissional de 5 artes para o Instagram de vocês.
 
-2. Autoridade Oficial (R$ 799 — R$ 719,10 no Pix ou 3x de R$ 266,33 sem juros):
-Com o domínio próprio oficial www.barbeariaideal.com.br (com o 1º ano 100% gratuito e configurado), brinde do carrossel do Instagram e taxa de manutenção de apenas R$ 69,90/mês para manter fotos, cortes e textos sempre atualizados.
+2. Autoridade Oficial (R$ 899 — R$ 809,10 no Pix ou 3x de R$ 299,66 sem juros):
+Com o domínio próprio oficial www.barbeariaideal.com.br (com o 1º ano 100% gratuito e configurado), brinde do carrossel do Instagram e taxa de gestão contínua de R$ 99,90/mês para manter fotos, cortes e textos sempre atualizados.
 
 O que acharam da demonstração do site?
 ```
