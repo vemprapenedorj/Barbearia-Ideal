@@ -948,17 +948,13 @@ ul {
   overflow: hidden;
   border: 1px solid var(--border-gold);
   box-shadow: var(--shadow-card);
-  transition: border-color var(--transition-normal), box-shadow var(--transition-normal);
-  transform-style: preserve-3d;
-  will-change: transform;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: pan-y;
+  transition: all var(--transition-normal);
 }
 
 .gallery-item:hover {
   border-color: var(--color-gold);
-  box-shadow: 0 20px 42px rgba(0, 0, 0, 0.78), var(--shadow-glow);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.7), var(--shadow-glow);
 }
 
 .gallery-item.gallery-top {
@@ -975,47 +971,16 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
-  pointer-events: none;
-  -webkit-user-drag: none;
   transition: transform 0.6s ease;
 }
 
-.gallery-item .holo-canvas {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 2;
-  opacity: 0;
-  transition: opacity 0.35s ease;
-}
-
-.gallery-item[data-holo-ready] .holo-canvas {
-  opacity: 1;
-}
-
-.gallery-item .holo-fallback-glare {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 2;
-  opacity: 0;
-  mix-blend-mode: color-dodge;
-  transition: opacity 0.3s ease;
-  background: radial-gradient(circle at var(--hx, 50%) var(--hy, 50%), rgba(232, 195, 130, 0.38), rgba(255, 255, 255, 0.12) 35%, transparent 65%);
-}
-
-.gallery-item:not([data-holo-ready]):hover .holo-fallback-glare {
-  opacity: 1;
+.gallery-item:hover img {
+  transform: scale(1.05);
 }
 
 .gallery-overlay {
   position: absolute;
   inset: 0;
-  z-index: 3;
-  pointer-events: none;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.2) 50%, transparent 80%);
   display: flex;
   align-items: flex-end;
